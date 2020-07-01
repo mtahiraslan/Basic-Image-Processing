@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1094</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Gürültü Oluşturma</string>
+    </attribute>
+    <widget class="QPushButton" name="btn_resim_sec">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>450</y>
+       <width>141</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Resim Seç</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_resim_sec">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>961</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_gurultu_olustur">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>450</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Gürültü Oluştur</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Çember Çizme</string>
+    </attribute>
+    <widget class="QPushButton" name="btn_daire_ciz">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>670</y>
+       <width>111</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Daire Çiz</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_daire_goster">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>991</width>
+       <height>531</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_merkez">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>670</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
